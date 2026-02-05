@@ -1,6 +1,24 @@
 /* Globals*/
 
+* {
+    border: 2px solid red;
+}
+
+:root {
+    --primary-color: #f5c227;
+    --secondary-color: #C89809;
+    --tertiary-color: #705505;
+    --quaternary-color: #443403;
+    --text-color: #222222;
+    --background-color: #000000;
+}
+
+
 body {
     font-family: 'Arial Narrow', Helvetica, sans-serif;
+}
+
+.header {
+    color: var(--primary-color);
 }
 
